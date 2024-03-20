@@ -67,21 +67,109 @@
 <b>Untrusted Network</b>
 <b>Trusted Network</b>
     <h3>08.02a Firewall Processing Modes</h3>
+    <b>Packet-Filtering Firewalls</b>
+    <b>IP Packet</b>
+    <b>TCP Packet</b>
+    <b>UDP Packet</b>
+    <b>Static Packet Filtering</b>
+    <b>Dynamic Packet Filtering</b>
+    <b>Stateful Packet Inspection (SPI)</b>
+    <b>Address Restrictions</b>
+    <b>State Table</b>
+    <b>Application Layer Proxy Firewall (aka Application Firewall)</b> - 
+    <b>Proxy Server</b>
+    <b>Reverse Proxy</b>
+    <b>Demilitarized Zone (DMZ)</b> 
+    <b>MAC (Media Access Control) Layer Firewall</b>
+    <b>Hybrid Firewalls</b>
+    <b>Unified Threat Management (UTM)</b>
+    <b>Next Generation Firewall (NextGen / NGFW)</b>
     <h3>08.02b Firewall Architectures</h3>
+    <b>Bring-your-own-device (BYOD)</b>
+    <b>Managed Security Services (MSS)</b>
+    <b>Network Operations Centers (NOCs)</b>
+    <b>Single Bastion Hosts</b>
+    <b>Bastion Host</b>
+    <b>Sacriicial Host</b>
+    <b>Network Address Translation (NAT)</b>
+    <b>Network Address and Port Translation (NAPT)</b>
+    <b>Port Address Translation (PAT)</b>
+    <b>Unique Local Address (ULA)</b>
+    <b>Screened Host Architecture</b>
+    <b>Screened Subnet Architecture (with DMZ)</b>
+    <b>Extranet</b>
     <h3>08.02c Selecting the Right Firewall</h3>
     <h3>08.02d Configuring and Managing Firewalls</h3>
+    <b>Configuration Rules</b>
     <h3>08.02e Content Filters</h3>
-        
+    <b>Content Filter</b>
+    <b>Reverse Firewalls</b>  
+    <b>Data Loss Prevention</b> 
 <h2>08.03 Protecting Remote Connections</h2>
+<b>Remote Authentication Service (RAS)</b>
+<b>Virtual Private Networks (VPNs)</b> 
     <h3>08.03a Remote Access</h3>
+    <b>War Dialer</b>
+    <b>RADIUS (Remote Authentication Dial-In User Service)</b>
+    <b>Network Access Server (NAS)</b>
+    <b>Authentication, Authorization, Accounting (AAA)</b>
+    <b>Internet Protocol Security (IPSec)</b>
+    <b>Transport Layer Security (TLS)</b>
+    <b>Terminal Access Controller Access Control System (TACACS)</b>
+    <b>Kerberos</b>
+        <i>Authentication Server (AS)</i>
+        <i>Key Distribution Center (KDC)</i>
+        <i>Kerberos Ticket Granting Service (TGS)</i>
+    <b>SESAME (Secure European System for Applications in a Multivendor Environment)</b>
+    <b>Privilege Attribute Certificate (PAC)</b>
+    <b>ECMA (European Computer Manufacturers Association)</b>
     <h3>08.03b Virtual Private Networks (VPNs)</h3>
-        
+    <b>VPNs (Virtual Private Networks)</b>
+    <b>Trusted VPN</b>
+    <b>Secure VPN</b>
+    <b>Hybrid VPN</b>
+    <b>Encapsulation</b>
+    <b>Encryption</b>
+    <b>Authentication</b>
+    <b>Transport Mode</b>
+    <b>Tunnel Mode</b>
 <h2>08.04 Final Thoughts on Remote Access and Access Controls</h2>
     <h3>08.04a Deperimeterization</h3>
+    <b>Deperimeterization</b>
     <h3>08.04b Remote Access in the Age of COVID-19</h3>
-        
 <h2>08.05 Module Review</h2>
     <h3>08.05a Module Summary</h3>
+        - Access control is a process by which systems determine if and how to admit a user into a trusted area of the organization.
+
+        - Mandatory access controls offer users and data owners little or no control over access to information resources. MACs are often associated with a data classification scheme in which each collection of information is rated with a sensitivity level. This type of control is sometimes called lattice-based access control.
+        
+        - Nondiscretionary access controls are strictly enforced versions of MACs that are managed by a central authority, whereas discretionary access controls are implemented at the discretion or option of the data user.
+        
+        - All access control approaches rely on identification, authentication, authorization, and accountability.
+        
+        - Authentication is the process of validating an unauthenticated entity’s purported identity. The three widely used types of authentication factors are something a person knows, something a person has, and something a person is or can produce.
+        
+        - Strong authentication requires a minimum of two authentication mechanisms drawn from two different authentication factors.
+        
+        - Biometrics is the use of a person’s physiological characteristics to provide authentication for system access.
+        
+        - Security access control architecture models illustrate access control implementations and can help organizations quickly make improvements through adaptation. Some models, like the trusted computing base, ITSEC, and the Common Criteria, are evaluation models used to demonstrate the evolution of trusted system assessment. Models such as Bell–LaPadula and Biba ensure that information is protected by controlling the access of one part of a system on another.
+        
+        - A firewall is any device that prevents a specific type of information from moving between the outside network, known as the untrusted network, and the inside network, known as the trusted network.
+        
+        - Firewalls can be categorized into four groups: packet filtering, MAC layers, application gateways, and hybrid firewalls.
+        
+        - Packet-filtering firewalls can be implemented as static filtering, dynamic filtering, and stateful packet inspection firewalls.
+        
+        - The three common architectural implementations of firewalls are single bastion hosts, screened hosts, and screened subnets.
+        
+        - Firewalls operate by evaluating data packet contents against logical rules. This logical set is most commonly referred to as firewall rules, a rule base, or firewall logic.
+        
+        - Content filtering can improve security and assist organizations in improving the manageability of their technology.
+        
+        - Dial-up protection mechanisms help secure organizations that use modems for remote connectivity. Kerberos and SESAME are authentication systems that add security to this technology.
+        
+        - Virtual private networks enable remote offices and users to connect to private networks securely over public networks.
     <h3>08.05b Review Questions</h3>
     <b>01) </b>
         <i></i>
